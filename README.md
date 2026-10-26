@@ -391,7 +391,6 @@ Zero_trace/
 │   └── Static_Between_Stations_Writeup.md
 │
 ├── Last_Ferry_Out_Writeup.md        # OSINT / geolocation + timetable
-├── Last_Ferry_Out/{thumb.jpg,extracted_thumb.jpg,voicemail.wav}
 ├── The_lost_hotel/
 │   └── ctf_writeup.md               # OSINT / hotel identification
 │
