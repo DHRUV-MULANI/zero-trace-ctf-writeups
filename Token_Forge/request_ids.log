@@ -1,0 +1,14 @@
+# edge-gateway request-id log  (newest requests get a fresh id)
+# ids are emitted by the service's internal sequence generator
+# one id per line, oldest first:
+
+req-032a38bf3
+req-0b67f750a
+req-0b658d79a
+req-00c1f3bf4
+req-0d4b95a26
+req-0a4bd019e
+req-0f0759990
+req-0fd8be8bf
+req-0e3b17eea
+req-0b7bb3059

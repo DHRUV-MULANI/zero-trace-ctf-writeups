@@ -1,0 +1,5 @@
+vault layout: 'VLT1' | salt(16) | len(be32) | ct | crc32(salt||ct)   (crc alone proves nothing)
+cipher: aes-256-cbc, iv = salt, key = sha256( beacon16 || salt ), then zlib
+beacon: dns gaps, manchester. short->long = 1, long->short = 0. skip the sync pause. ignore retransmits.
+inner: left ear = picture (played backwards, my bad). right ear: header 'FNL!' + be16 len + data,
+       one bit per sample, stride 7 starting at 1000. data ^= the word from the picture, repeating.

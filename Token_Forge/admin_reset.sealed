@@ -1,0 +1,4 @@
+# admin password-reset payload, sealed with the NEXT request-id's FULL state
+# key  = SHA256(b'reqid-seal-' + str(next_state).encode())
+# ks   = SHA256(key + counter_be32), counter from 0; payload = ct XOR ks
+ciphertext_hex: 1d4f9c5965aa993636bff25fd9d7ad7fd278ff5ec647a88c00826f7ddf85d704cd90a5158dcc29cb35b1e557201bcc1955d85db94bd0e658aa950840b1c23721fbc181366b8887828bf5229743edcda8d0d248df350a10a408b1429ece8126a06a8bcd430d605774acf2d244d1f8ce01126069cb32d1aabb994fceba200ce1c95df2918089d3fab9b20e638fee0c249f89896a56169f1bc1e01fe35317f6b56d15333e33393d3af60b9ac5774b9aec

@@ -1,0 +1,1 @@
+old scheme (abandoned): stride 5 from 512, key = md5(word), plain NRZ gaps 0.2/0.55

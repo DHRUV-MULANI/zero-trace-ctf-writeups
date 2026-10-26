@@ -1,0 +1,4 @@
+# sealed by fw-prod signing service
+# key  = SHA256(b'fw-prod-seal-' + str(d).encode()), d = fw-prod ECDSA private key
+# ks   = SHA256(key + counter_be32), counter from 0; flag = ct XOR ks
+ciphertext_hex: 7b0df4b443574678cf2c851bd67e284d1f584a88ee0f0c8dfb26c0ea70ae252063aa717786

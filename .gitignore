@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Ignore rules for the public writeup repository.
+# The original working tree also holds multi-hundred-MB evidence images,
+# extracted disk images, generated spectrograms and the competition VPN
+# profile. Those stay local; only writeups, solve scripts and lightweight
+# artefacts are published.
+# ---------------------------------------------------------------------------
+
+# Python environments / caches
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+
+# VPN profiles contain a private key and user certificate -- never publish
+*.ovpn
+*.pem
+*.p12
+
+# Large evidence files, media and generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.wav
+*.mp4
+*.img
+*.gz
+*.zip
+*.7z
+*.npy
+*.tmp
+
+# Keep a certificate image for the ranking section if one is added
+!assets/certificate.png
+
+# Extracted device dumps and duplicated working trees
+Mobile/Ghost_in_the_Pocket/
+Mobile/Ouroboros/ouroboros_backup/
+Mobile/extracted_thumbcache/
+Mobile/chars
+Ghost_in_the_Spectrogram/deleted_file
+
+# Compiled binaries
+Token_Forge/solve
+Token_Forge/.solve_bin
+
+# Bulk generated intermediates
+Ghost_in_the_Spectrogram/d_*.bin
+Ghost_in_the_Spectrogram/openssl.bin
+Whisper_Twice/leftbits_*.bin
+Whisper_Twice/recovered_*.bin
+Whisper_Twice/deleted_vault.bin
