@@ -10,6 +10,7 @@ defender-side lesson. Solve scripts and the lightweight challenge artefacts are 
 they can be redistributed.
 
 [![Result](https://img.shields.io/badge/Result-4th%20Place-FFD166?style=for-the-badge)](#result--certificate)
+[![Certificate](https://img.shields.io/badge/Certificate-View%20Official-58A6FF?style=for-the-badge)](https://learn.hacklido.com/ctf-events/41162d1b4b3b8d35/certificate/12caf2bb88b80bc07e2b707bc731d1fb)
 [![Challenges](https://img.shields.io/badge/Challenges-18%20Documented-39D353?style=for-the-badge)](#challenge-index)
 [![Categories](https://img.shields.io/badge/Categories-6-58A6FF?style=for-the-badge)](#coverage-at-a-glance)
 [![Flags](https://img.shields.io/badge/Flags-18%20Captured-A371F7?style=for-the-badge)](#captured-flags)
@@ -18,7 +19,7 @@ they can be redistributed.
 |---|---|
 | **Event** | Zero Trace CTF — HackCTF flag format, hosted on Hacklido |
 | **Date** | 25 October 2026 |
-| **Result** | **4th place overall** + certificate |
+| **Result** | **4th place overall** + [official certificate](https://learn.hacklido.com/ctf-events/41162d1b4b3b8d35/certificate/12caf2bb88b80bc07e2b707bc731d1fb) |
 | **Author** | [Dhruv Mulani (@DHRUV-MULANI)](https://github.com/DHRUV-MULANI) |
 | **Flag format** | `HackCTF{...}` |
 | **Categories** | Web · Pwn · Crypto · Forensics · Steganography · OSINT · Mobile |
@@ -455,11 +456,16 @@ happily return the wrong answer.
 
 **18 documented solves across web, pwn, crypto, forensics, OSINT, mobile and signal analysis.**
 
+**[View the official certificate →](https://learn.hacklido.com/ctf-events/41162d1b4b3b8d35/certificate/12caf2bb88b80bc07e2b707bc731d1fb)**
+
 </div>
 
-The official 4th-place certificate was awarded for this result. To display it in this repository,
-drop the image at `assets/certificate.png`; the path is already excluded from the blanket PNG
-ignore rule.
+The official 4th-place certificate is hosted on the Hacklido platform:
+[`learn.hacklido.com/ctf-events/41162d1b4b3b8d35/certificate/12caf2bb88b80bc07e2b707bc731d1fb`](https://learn.hacklido.com/ctf-events/41162d1b4b3b8d35/certificate/12caf2bb88b80bc07e2b707bc731d1fb)
+
+> Note: the certificate URL may require a Hacklido account login. If you also want a local mirror
+> in this repository, save the certificate as `assets/certificate.png` and commit it — the path is
+> already excluded from the blanket PNG ignore rule.
 
 ---
 
